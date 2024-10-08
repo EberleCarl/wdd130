@@ -29,6 +29,19 @@ head {
 header {
     font-family: "Cabin", system-ui;
     color: blue;
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+    background-color: #397367e8;
+}
+
+img {
+    margin: 0 0.25rem 0 1rem;
+    width:  150px;
+    height: auto;
 }
 
 a {
@@ -48,6 +61,60 @@ div {
 h1 {
     position: block;
     top: auto;
+    font-size: 2rem;
+    font-family: "Cabin", system-ui;
+}
+
+nav {
+    text-align: right;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    flex: 1 1 100%;
+}
+
+.navigation a {
+    display: block;
+    color: #13293D;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #ED6A5A;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+section.history {
+    background-color: #397367;
+    color: #E3B23C;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: nowrap;
+    padding: 5px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: none;
+    color: #000;
+    font: italic smaller sans-serif;
+    text-align: center;
+
+}
+
+.adventure img {
+    max-width: 220px;
+    max-height: 200px;
 }
 
 article {
@@ -90,3 +157,13 @@ div.hero {
     width: 10%;
     height: auto;
 }
+
+nav.sociallinks {
+    text-align: left;
+}
+
+.sociallinks img {
+    width: 100px;
+    height: auto;
+}
+
