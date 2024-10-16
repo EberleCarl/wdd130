@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Black Ops One", system-ui;
+    font-size: 1.2em;
+    color: #fffdfd;
+    background: #fff;
+}
+
+header {
+    margin: 0;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: royalblue;
+    text-align: center;
+}
+
+form {
+    width: 850px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 0.5rem;
+    background-color: gray;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid;
+    padding: 1rem;
+}
+
+legend {
+    padding: 1rem;
+    color: royalblue;
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+    font-family: "Aldrich", sans-serif;
+    font-weight: 400;
+}
+
+label {
+    text-align: left;
+    padding: 10px;
+}
+
+input, select, textarea {
+    padding: 20px;
+    font-size: medium;
+}
+
+input[type="checkbox"] {
+    width: 5%;
+    height: 5%;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: rgba(94, 230, 223, 0.788);
+    color: #333;
+    border: none;
+    border-radius: 1rem;
+    padding: .75rem;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    margin: 1rem auto;
+    width: 650px;
+    text-align: center;
+    font-size: 1em;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
+
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 2px;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: .8px;
+}
